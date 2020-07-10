@@ -4,7 +4,7 @@ this is open vpn lib app
 
 
 allprojects {
-		repositories {
+repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
@@ -14,5 +14,5 @@ allprojects {
   
   
   dependencies {
-	        implementation 'com.github.smzh745:OpenVpn:1.0.0'
+  implementation 'com.github.smzh745:OpenVpn:1.0.0'
 	}
